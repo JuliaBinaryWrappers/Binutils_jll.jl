@@ -174,18 +174,6 @@ target_os = "linux"
     url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.38.0+3/Binutils.v2.38.0.x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "95d75f418c8c1c92f2ed20c3ef5bcd452ee85c5b"
-libc = "glibc"
-os = "linux"
-target_arch = "x86_64"
-target_libc = "glibc"
-target_os = "linux"
-
-    [[Binutils.download]]
-    sha256 = "178192c610746892f49b3ba7aa22b0da57d2d9ba958b7bfc29c982b13c56349d"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.38.0+3/Binutils.v2.38.0.x86_64-linux-gnu-target_libc+glibc-target_os+linux-target_arch+x86_64.tar.gz"
-[[Binutils]]
-arch = "x86_64"
 git-tree-sha1 = "9c9dd770a4890d291f4baf45599475474fe236e5"
 libc = "glibc"
 os = "linux"
