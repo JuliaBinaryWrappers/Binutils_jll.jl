@@ -1,103 +1,103 @@
 [[Binutils]]
 arch = "aarch64"
-git-tree-sha1 = "462e426e4e55b85770509a5ac5021f057a14ec93"
+git-tree-sha1 = "7c822d5ce06bd29dae00be38766019217a48ee98"
 libc = "glibc"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "8ec3c34bed02f9f9d4c3c9615c1457c26081dae373085ad354be36ae90fdab18"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.aarch64-linux-gnu.tar.gz"
+    sha256 = "2ac46fccfb38baf110b246f06bbaeb35582d0743acb0779fa857a6d15560b430"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.aarch64-linux-gnu.tar.gz"
 [[Binutils]]
 arch = "aarch64"
-git-tree-sha1 = "120b2f55b815a586fd2dc880f2e8d4c339bd2d88"
+git-tree-sha1 = "f71ab3df373b881d0e5570a8b1690e25b7fa3bdd"
 libc = "musl"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "4b8e3b146d9ba64d5bfdabe39824d4cd50fd79f0595e66765970f1cbb84fc9bd"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.aarch64-linux-musl.tar.gz"
+    sha256 = "e483f9431c3db1d4de63ffe04fdd4967b33cf37c748bea7930c99274327c8ef0"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.aarch64-linux-musl.tar.gz"
 [[Binutils]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "8b4a5bb430d0e7b9d77f3995d83b07e588449df1"
+git-tree-sha1 = "18a4490d01475f64c198d36ee67fc138d9a8fa52"
 libc = "glibc"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "2173c9e12575521ee72f43b3d76e0ac97eaeeeba6fedca489b278566f186108c"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.armv6l-linux-gnueabihf.tar.gz"
+    sha256 = "d4dbb5a46803f4ffa9ca299a71d694075c3d064f04a53e64aedc7324419be7d5"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.armv6l-linux-gnueabihf.tar.gz"
 [[Binutils]]
 arch = "armv6l"
 call_abi = "eabihf"
-git-tree-sha1 = "51afb9d8b11bff53764b30264d25749f44957417"
+git-tree-sha1 = "356519d5f391d62fcf213144e8adbda3e5a076f0"
 libc = "musl"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "9260f3e6dca633178af2e0544dc4404f9547b3732363475f699abc3fd22c95af"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.armv6l-linux-musleabihf.tar.gz"
+    sha256 = "720f40f0938fa93685252d7c4c3e397b7fb7ca2903b5e896d7fe9df038da510d"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.armv6l-linux-musleabihf.tar.gz"
 [[Binutils]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "41f04dbaf6da2e96f21bb8c8dc2aa03beee10023"
+git-tree-sha1 = "63bd6cd99e8a4191bf57dbfd4dfc4e797210f36e"
 libc = "glibc"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "af1e6b0fadfc1c9cd7707d61268fed62d2eaff81e81b937b423a212376e84cad"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "4f571a0ceec0f4eb5ed09ac468723ba07f83668e5b4c971fb63f4fda50dcc1e8"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.armv7l-linux-gnueabihf.tar.gz"
 [[Binutils]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "54f1dedabe76879f1e72788ce8cfa4c6929c1faa"
+git-tree-sha1 = "c8cd41da3a18db88d27c8aab1fc3fdb6b62622cc"
 libc = "musl"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "5a75c33136cd9a6b3400066197abec558be2517a385d3d455212eff75d6e4308"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.armv7l-linux-musleabihf.tar.gz"
+    sha256 = "75fefb60671e5e5e5d6faf6be25b3f68305d52335e4693fd4cbbe0fad373d27d"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.armv7l-linux-musleabihf.tar.gz"
 [[Binutils]]
 arch = "i686"
-git-tree-sha1 = "0cecd5dea5dced8709e23fe12648373937abd3ed"
+git-tree-sha1 = "1887cfb35f5e017fc88d93ff506d3cb8a5a65969"
 libc = "glibc"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "2ff57573e9120b2d0c9cf828abfcfc66880a680bdeeaca8c754d507b76bb43da"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.i686-linux-gnu.tar.gz"
+    sha256 = "987e6782d4c77532c766302d93e3e9013737a02a09734f374f9530bf32e1c616"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.i686-linux-gnu.tar.gz"
 [[Binutils]]
 arch = "i686"
-git-tree-sha1 = "018ba08e5e7638f157cd0b65f6b0d01436702536"
+git-tree-sha1 = "09daef89182760bad6a1490984afa8522857bc4e"
 libc = "musl"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "bcaef3f79ec48a4e714c9a48ed3678f68e7988919210c0e734f1dee43431889b"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.i686-linux-musl.tar.gz"
+    sha256 = "423243a705522e7405d7e64f7509a59296c7902a4f3fbb73d05a44e5def35690"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.i686-linux-musl.tar.gz"
 [[Binutils]]
 arch = "powerpc64le"
-git-tree-sha1 = "68489305c0889ae7938a2b31d1473c025eada369"
+git-tree-sha1 = "8b63b921f789286cd310abc84e08d95663599131"
 libc = "glibc"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "427f02b0e16fc4ea7094ba1a7a70ecad0f21b04760c1d7ab673fc28f942996aa"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.powerpc64le-linux-gnu.tar.gz"
+    sha256 = "3ba5ce19059550f7d56c7561ed3ad4cca86735abe11da9fbe053443fee0065c4"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.powerpc64le-linux-gnu.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "d456da5798a3960c18cdd812d11d6c162fbc0c2f"
+git-tree-sha1 = "6e06e78828d52bb084a4075d044800fe5c152ac6"
 libc = "glibc"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "053347a1e3bae0eff7f4b8156675437cd58860dcd54c8f844f9b99f59ebdc991"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "ba473f0ffe3ae80c7a336e6dc541b69851484dd5e47ffe27fac6910a3837f111"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.x86_64-linux-gnu.tar.gz"
 [[Binutils]]
 arch = "x86_64"
-git-tree-sha1 = "f2eb4c5ef26e60b1d8a722624a174b7755e10b8f"
+git-tree-sha1 = "6c189760fdff6e65c15259121ca463809ae850f2"
 libc = "musl"
 os = "linux"
 
     [[Binutils.download]]
-    sha256 = "1dbbbc67324bf74754fe58128ae062e9cbe62dfc747b649478fb9eecf5bee55e"
-    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.39.0+0/Binutils.v2.39.0.x86_64-linux-musl.tar.gz"
+    sha256 = "18aab35fd7cc0749df5c628f0447347a23bcf4a80a201daade5d93ee38b8d614"
+    url = "https://github.com/JuliaBinaryWrappers/Binutils_jll.jl/releases/download/Binutils-v2.41.0+0/Binutils.v2.41.0.x86_64-linux-musl.tar.gz"
