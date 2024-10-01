@@ -2,9 +2,9 @@
 export addr2line, ar, binutils_size, binutils_strip, cxxfilt, elfedit, libbfd, libctf, libopcodes, nm, objcopy, objdump, ranlib, readelf, strings
 
 JLLWrappers.@generate_wrapper_header("Binutils")
-JLLWrappers.@declare_library_product(libbfd, "libbfd-2.41.so")
+JLLWrappers.@declare_library_product(libbfd, "libbfd-2.43.so")
 JLLWrappers.@declare_library_product(libctf, "libctf.so.0")
-JLLWrappers.@declare_library_product(libopcodes, "libopcodes-2.41.so")
+JLLWrappers.@declare_library_product(libopcodes, "libopcodes-2.43.so")
 JLLWrappers.@declare_executable_product(addr2line)
 JLLWrappers.@declare_executable_product(ar)
 JLLWrappers.@declare_executable_product(binutils_size)
