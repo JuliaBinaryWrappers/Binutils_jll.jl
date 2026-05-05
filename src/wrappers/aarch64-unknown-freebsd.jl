@@ -4,9 +4,9 @@ export addr2line, ar, binutils_size, binutils_strip, cxxfilt, elfedit, libbfd, l
 using Zlib_jll
 using Zstd_jll
 JLLWrappers.@generate_wrapper_header("Binutils")
-JLLWrappers.@declare_library_product(libbfd, "libbfd-2.45.1.so")
+JLLWrappers.@declare_library_product(libbfd, "libbfd-2.46.0.20260210.so")
 JLLWrappers.@declare_library_product(libctf, "libctf.so.0")
-JLLWrappers.@declare_library_product(libopcodes, "libopcodes-2.45.1.so")
+JLLWrappers.@declare_library_product(libopcodes, "libopcodes-2.46.0.20260210.so")
 JLLWrappers.@declare_executable_product(addr2line)
 JLLWrappers.@declare_executable_product(ar)
 JLLWrappers.@declare_executable_product(binutils_size)
